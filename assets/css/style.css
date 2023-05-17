@@ -8,11 +8,18 @@
 .portafolio{
     color: black;
 }
-.perfil{
-    top: 30px;
-    color: black;
-    text-align: justify;
+.fotoyperfil{
+    
+  display: flex;
+  justify-content: center;
 }
+.perfil{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
 .inicio {
     color: black;
 }
@@ -65,7 +72,9 @@
 
   .fotocv{
     display: flex;
-    justify-content:end
+    justify-content:end;
+    margin: 20px;
+    border-radius: 20px;
   }
   .perfil{
     display: flex;
