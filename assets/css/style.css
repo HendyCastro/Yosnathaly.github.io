@@ -1,17 +1,74 @@
 .fondo{
-    background-color: violet;
+    background-color: rgb(165, 104, 165);
 
 }
-
 .nombre{
-    color: #000;
+    color: black;
 }
 .portafolio{
-    color: #000;
+    color: black;
 }
-.educación{
-    background-color: violet;
+.perfil{
+    top: 30px;
+    color: black;
+    text-align: justify;
 }
+.inicio {
+    color: black;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .proyectos {
+    margin-bottom: 10px;
+  }
 .experiencialaboral{
-    background-color: violet;
+    background-color: rgb(165, 104, 165) ;
 }
+
+.educación{
+    background-color: rgb(165, 104, 165);
+}
+
+.informacionpersonal{
+
+    background-color: rgb(165, 104, 165) ;
+}
+  .footer {
+    background-color: rgb(165, 104, 165);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    color: #555;
+    margin: 0 8px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #000;
+  }
+
+  .fotocv{
+    display: flex;
+    justify-content:end
+  }
+  .perfil{
+    display: flex;
+    justify-content:center;
+    text-align-last:center;
+  }
